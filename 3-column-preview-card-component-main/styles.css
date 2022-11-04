@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+/* || VARIABLES */
+:root {
+    /* ---COLORS */
+    --bg-color-sedans: hsl(31, 77%, 52%);
+    --bg-color-suvs: hsl(184, 100%, 22%);
+    --bg-color-luxury: hsl(179, 100%, 13%);
+    --text-color: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+
+    /* ---FONT */
+    --fs: 15px;
+    --ff: 'Lexend Deca', sans-serif;
+    --ff-heading: 'Big Shoulders Display', serif;
+}
+/* RESET VARIABLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    background-color: var(--bg-color-sedans);
+    min-height: 25rem;
+    max-width: 18rem;
+    padding: 2.4rem;
+    padding-top: 1.5rem;
+    position: relative;
+}
+.card .svg{
+    margin-bottom: 1.5rem;
+}
+.card h1{
+    color: var(--text-color);
+    font-family: var(--ff-heading);
+}
+.card p{
+    color: var(--text-color);
+    font-family: var(--ff);
+    margin-top: 1.5rem;
+    margin-bottom: 5.7rem;
+}
+.card button{
+    position: absolute;
+    background: var(--light-gray);
+    border: 2px solid hsl(0, 0%, 95%);
+    text-align: center;
+    padding: 12px 18px;
+    color: var(--bg-color-sedans);
+    border-radius: 30px;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
