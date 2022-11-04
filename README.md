@@ -69,6 +69,6 @@ I was able to remind myself on how to use flexbox and using pseudo classes.
 
 ## Author
 
-- Frontend Mentor - [wahomethegeel](https://www.frontendmentor.io/profile/Wahomethegeek)
+- Frontend Mentor - [wahomethegeek](https://www.frontendmentor.io/profile/Wahomethegeek)
 - Twitter - [@_Wahomekelvin](https://www.twitter.com/_Wahomekelvin)
 
